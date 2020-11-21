@@ -34,8 +34,6 @@ it('View Gist', () =>{
   cy.get('.Header-link.name').click()
   .get('[data-ga-click="Header, go to your gists, text:your gists"]').should("have.text","Your gists")
   .get('[data-ga-click="Header, go to your gists, text:your gists"]').click()
-
-
 })
 
 
